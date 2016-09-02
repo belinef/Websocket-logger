@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <link rel="stylesheet" href="styles/common.css" />
+</head>
+<body>
+<div>
+  <input class="input" type="text" id="url" placeholder="Example : wss://echo.websocket.org">
+  <button class="input" id="showLog">Show Log</button>
+
+</div>
+<div>
+  <input class="input" type="text" id="search" placeholder="What you need to find">
+  <button class="input" id="filterOn">Filter ON</button>
+  <button class="input" id="filterOff">Filter OFF</button>
+  <strong class="filterValue input" id="filterValue"> Filter is off </strong>
+</div>
+<pre id="log"></pre>
+<script src="js/ws-logger.js"></script>
+</body>
+</html>
